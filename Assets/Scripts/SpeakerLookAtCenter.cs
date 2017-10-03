@@ -9,6 +9,6 @@ public class SpeakerLookAtCenter : MonoBehaviour {
     void Start () {
         target = GameObject.Find("ListenPoint");
         targetPos = target.transform;
-        transform.LookAt(target);
+        transform.LookAt(targetPos);
     }
 }
