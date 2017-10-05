@@ -70,7 +70,7 @@ public class OutputSetup : MonoBehaviour {
 		stitcher230_front.layer = stitcherLayer;
 		stitcher230_One.layer = stitcherLayer;
 
-		stitcherCam_One.cullingMask = 1 << stitcherLayer;
+		//stitcherCam_One.cullingMask = 1 << stitcherLayer;
 		
 		SwitchConfig(config);
 	}
