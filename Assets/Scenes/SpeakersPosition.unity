@@ -480,7 +480,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 324330e2552c2cf45bf08845d3741575, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jsonPath: Assets/Resources/temp_test.txt
+  jsonPath: Assets/Resources/speakersPositions_167channels.json
   prefab: {fileID: 1488640069400000, guid: 7d0da53985ffc5540b0424aa96035508, type: 2}
 --- !u!4 &125886448
 Transform:
@@ -489,7 +489,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 125886445}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3263607, y: 3.028706, z: -2.7707214}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2705,7 +2705,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1725551747
 Transform:
   m_ObjectHideFlags: 0

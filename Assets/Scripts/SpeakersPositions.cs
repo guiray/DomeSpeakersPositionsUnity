@@ -1,6 +1,8 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 
-public class SpeakersPositions : MonoBehaviour
+[Serializable]
+public class SpeakersPositions
 {
     public Vector3[] positions;
 }
