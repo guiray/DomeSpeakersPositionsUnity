@@ -14,6 +14,7 @@ public class JsonRead : MonoBehaviour
         string json = ReadTextFile(jsonPath);
 
 
+
         //Convert le json dans la classe
         SpeakersPositions speakersPositions = JsonUtility.FromJson<SpeakersPositions>(json);
 
