@@ -20,12 +20,12 @@ public class JsonRead : MonoBehaviour
     void Start()
     {
 
-        string[] filePaths = Directory.GetFiles(string "Assets/Resources/Configs/", SearchOption.TopDirectoryOnly);
+        //string[] filePaths = Directory.GetFiles(string "Assets/Resources/Configs/", SearchOption.TopDirectoryOnly);
 
-        Debug.Log(filePaths);
+       // Debug.Log(filePaths);
 
         //Resort le contenue du text au path donné
-        string json = ReadTextFile(jsonPath);
+        string json = ReadTextFile("Assets/Resources/Configs/speakersPositions_167channels.json");
 
         
 
