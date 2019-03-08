@@ -12,8 +12,8 @@ public class JsonRead : MonoBehaviour
 
     private List<string> configJsonList = new List<string>();
 
-    public Dropdown speakerConfiguration;
-
+    public enum configSelector { };
+    public configSelector ConfigSelector;
 
     void Start()
     {
@@ -32,19 +32,15 @@ public class JsonRead : MonoBehaviour
 
         }
 
+        
 
 
-        //string[] filePaths = Directory.GetFiles(string "Assets/Resources/Configs/", SearchOption.TopDirectoryOnly);
-
-        // Debug.Log(filePaths);
 
         //Resort le contenue du text au path donné
         string json = ReadTextFile("Assets/Resources/Configs/speakersPositions_167channels.json");
 
-        
-
-    //Convert le json dans la classe
-    SpeakersPositions speakersPositions = JsonUtility.FromJson<SpeakersPositions>(json);
+        //Convert le json dans la classe
+        SpeakersPositions speakersPositions = JsonUtility.FromJson<SpeakersPositions>(json);
 
         //Loop sur tous les positions
         for (int i = 0; i < speakersPositions.positions.Length; i++)
