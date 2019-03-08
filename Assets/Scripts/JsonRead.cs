@@ -1,28 +1,42 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class JsonRead : MonoBehaviour 
 {
-    
 
-    //public string jsonPath = "Assets/Resources/Configs/speakersPositions_167channels.json";
-    //public string jsonPath = "Assets/Resources/Configs/";
+    private string jsonDirectory = "Assets/Resources/Configs/";
 
     public GameObject prefab;
 
-    public enum Dropdown { Left, Right, Top, Bottom }
+    private List<string> configJsonList = new List<string>();
 
     public Dropdown speakerConfiguration;
 
-    
 
     void Start()
     {
 
+        // get path for each files in this directory
+        DirectoryInfo dir = new DirectoryInfo(jsonDirectory);
+        FileInfo[] info = dir.GetFiles("*.json");
+
+        //get all json file name in the config directory
+        foreach (FileInfo f in info)
+        {
+            string[] pathArray = f.ToString().Split('\\');
+            string lastItem = pathArray[pathArray.Length - 1];
+
+            configJsonList.Add(lastItem);
+
+        }
+
+
+
         //string[] filePaths = Directory.GetFiles(string "Assets/Resources/Configs/", SearchOption.TopDirectoryOnly);
 
-       // Debug.Log(filePaths);
+        // Debug.Log(filePaths);
 
         //Resort le contenue du text au path donné
         string json = ReadTextFile("Assets/Resources/Configs/speakersPositions_167channels.json");
