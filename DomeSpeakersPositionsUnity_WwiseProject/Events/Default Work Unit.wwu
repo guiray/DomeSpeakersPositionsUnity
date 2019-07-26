@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C1CD6F9A-948B-4D23-9889-A5177CEEF73A}" SchemaVersion="94">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C1CD6F9A-948B-4D23-9889-A5177CEEF73A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="PlayWater" ID="{4FF31E2E-49BE-48FC-A5EB-C10D7E113442}">
+					<ChildrenList>
+						<Action Name="" ID="{B722BA69-A22A-4933-8C7B-F48A908F2678}" ShortID="639442522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="WATER_FLOW_MEDIUM_LOOP_01" ID="{CA4B0F76-36B1-4C43-A21B-09AC4285CE46}" WorkUnitID="{6268F1C5-999F-43A3-8982-E5E04B57859A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

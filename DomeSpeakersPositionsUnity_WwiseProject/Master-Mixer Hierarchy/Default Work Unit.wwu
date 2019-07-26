@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8E175470-EA49-423F-A092-ED5D7C1DAAAC}" SchemaVersion="94">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{8E175470-EA49-423F-A092-ED5D7C1DAAAC}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="ASIO Output" CompanyID="0" PluginID="168" PluginType="7">
+							<ObjectRef Name="ASIO_Output" ID="{84A688DF-E979-4BD6-B9A9-CBB23BD5C708}" WorkUnitID="{CCE762D3-D626-4419-B91E-C53837BB488F}"/>
+						</Reference>
+					</ReferenceList>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

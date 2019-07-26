@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8797E6AB-E234-45E2-AE2F-FA3151E2FC31}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{8797E6AB-E234-45E2-AE2F-FA3151E2FC31}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Demo_SoundBank" ID="{E7238D73-85ED-4D7C-940F-08A069E0B6B2}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayWater" ID="{4FF31E2E-49BE-48FC-A5EB-C10D7E113442}" WorkUnitID="{C1CD6F9A-948B-4D23-9889-A5177CEEF73A}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

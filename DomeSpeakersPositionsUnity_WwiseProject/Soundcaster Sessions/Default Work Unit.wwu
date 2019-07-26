@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CBEED868-BB43-476C-B97A-465CBC75F184}" SchemaVersion="94">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{CBEED868-BB43-476C-B97A-465CBC75F184}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{7F55A15D-7C4F-4287-BB8F-3AB2DB75DFC4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="PlayWater" ID="{4FF31E2E-49BE-48FC-A5EB-C10D7E113442}" WorkUnitID="{C1CD6F9A-948B-4D23-9889-A5177CEEF73A}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true"/>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

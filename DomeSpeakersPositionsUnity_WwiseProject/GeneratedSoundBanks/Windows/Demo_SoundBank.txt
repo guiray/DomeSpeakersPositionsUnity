@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2706800728	PlayWater			\Default Work Unit\PlayWater	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	348564932	WATER_FLOW_MEDIUM_LOOP_01	C:\Users\GuiRay\Documents\GitHub\DomeSpeakersPositionsUnity\DomeSpeakersPositionsUnity_WwiseProject\.cache\Windows\SFX\WATER_FLOW_MEDIUM_LOOP_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\WATER_FLOW_MEDIUM_LOOP_01		2187828
+
