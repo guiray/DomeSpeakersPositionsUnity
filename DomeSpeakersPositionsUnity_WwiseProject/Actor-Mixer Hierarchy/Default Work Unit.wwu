@@ -5,7 +5,9 @@
 			<ChildrenList>
 				<Sound Name="WATER_FLOW_MEDIUM_LOOP_01" ID="{CA4B0F76-36B1-4C43-A21B-09AC4285CE46}" ShortID="307772843">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="SpeakerPanning" Type="int16" Value="1"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -21,6 +23,9 @@
 							<AudioFile>WATER_FLOW_MEDIUM_LOOP_01.wav</AudioFile>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Panner Name="" ID="{A391E366-A8A7-4BD7-9C51-043F50E1BF49}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="WATER_FLOW_MEDIUM_LOOP_01" ID="{50915098-C6A0-46AB-9F96-D08D92D742EC}" Platform="Linked"/>
 					</ActiveSourceList>

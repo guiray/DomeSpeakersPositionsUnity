@@ -3,5 +3,6 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
+	2712377323	ASIO_Output	ASIO Output			
 	3859886410	System	System			
 

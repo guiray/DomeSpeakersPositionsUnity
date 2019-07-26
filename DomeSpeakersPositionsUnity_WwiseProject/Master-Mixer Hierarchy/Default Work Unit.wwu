@@ -5,8 +5,8 @@
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
 					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{B6CE8F2C-F090-49DD-A958-DB569EC7B8FB}" WorkUnitID="{CCE762D3-D626-4419-B91E-C53837BB488F}"/>
+						<Reference Name="AudioDevice" PluginName="ASIO Output" CompanyID="0" PluginID="168" PluginType="7">
+							<ObjectRef Name="ASIO_Output" ID="{84A688DF-E979-4BD6-B9A9-CBB23BD5C708}" WorkUnitID="{CCE762D3-D626-4419-B91E-C53837BB488F}"/>
 						</Reference>
 					</ReferenceList>
 				</Bus>
